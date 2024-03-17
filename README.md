@@ -35,11 +35,17 @@ In Terraform
 
 ----------Files we use --------------
 	1. data.tf - creates data sources and availability zones
+ 
 	2. backend.tf - storage. we'll use s3
+ 
 	3. provider - the cloud platform we using *aws*
+ 
 	4. main.tf - creates resources: VPC, SG (Security Groups) , EC2 instances
+ 
 	5. terraform.tfvars - 
+ 
 	6. variables.tf -
+ 
 	7. jenkins-install.sh - a file that has commands to install jenkins, git, terraform and kubectl on an EC2 instance.
 
 ---------------------------------------------
